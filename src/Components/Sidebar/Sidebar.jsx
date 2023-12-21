@@ -12,7 +12,7 @@ import "./Sidebar.css";
 
 export default function Sidebar() {
   return (
-    <div>
+    <div className="hidden sm:block">
       <div className="bg-black p-3 w-40 h-full relative">
         <div className="border-b border-b-gray-700 pb-3 flex items-center gap-2">
           <img src="images/logo.JPG" alt="" className="w-8"/>

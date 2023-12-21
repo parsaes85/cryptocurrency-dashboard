@@ -53,7 +53,7 @@ const data = [
 export default function AssetsAreaChart() {
   return (
     <div className="col-span-2 bg-black pl-4 pt-4 rounded-lg">
-      <h1 className="text-gray-100 font-medium text-lg">Assets</h1>
+      <h1 className="text-gray-100 font-medium text-xl">Assets</h1>
       <div className="mt-4">
         <h2 className="text-gray-400 text-xs">Your total balance</h2>
         <div className="flex items-center gap-2 mt-1">
@@ -63,7 +63,7 @@ export default function AssetsAreaChart() {
           </span>
         </div>
       </div>
-      <div className="h-52">
+      <div className="h-[200px]">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart
             width={500}

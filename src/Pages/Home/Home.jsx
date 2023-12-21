@@ -2,13 +2,15 @@ import React from "react";
 
 import CurrencyBox from "../../Components/HomeComponents/CurrencyBox/CurrencyBox";
 import AssetsAreaChart from "../../Components/HomeComponents/AssetsAreaChart/AssetsAreaChart";
+import BitcoinBarChart from "../../Components/HomeComponents/BitcoinBarChart/BitcoinBarChart";
+import MarketsItem from "../../Components/HomeComponents/MarketsItem/MarketsItem";
 
 export default function Home() {
   return (
     <div>
-      <div className="grid grid-cols-5 gap-4">
+      <div className="grid lg:grid-cols-5 gap-y-4 lg:gap-4 mb-4">
         <AssetsAreaChart />
-        <div className="grid col-span-3 grid-cols-2 gap-4 w-full">
+        <div className="grid col-span-3 md:grid-cols-2 gap-4 w-full">
           <CurrencyBox
             logo="images/eth-logo.JPG"
             title="ETHUSDT"
@@ -83,7 +85,26 @@ export default function Home() {
           />
         </div>
       </div>
-      <div></div>
+      <div className="grid lg:grid-cols-10 gap-4">
+        <BitcoinBarChart />
+        <div className="bg-black p-4 rounded-lg lg:col-span-3">
+          <div className="flex justify-between items-center">
+            <h1 className="text-gray-100 font-medium">Markets</h1>
+            <div className="flex text-gray-200 text-[10px] sm:text-xs gap-2">
+              <span className="bg-gray-100 text-blue-600 font-medium py-1 px-2 sm:px-3 rounded-lg">All</span>
+              <span className="bg-gray-500 py-1 px-2 sm:px-3 rounded-lg">Meta</span>
+              <span className="bg-gray-500 py-1 px-2 sm:px-3 rounded-lg">Gaming</span>
+            </div>
+          </div>
+          <div className="mt-6 space-y-6">
+            <MarketsItem />
+            <MarketsItem />
+            <MarketsItem />
+            <MarketsItem />
+            <MarketsItem />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
