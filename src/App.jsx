@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="flex min-h-[100vh] font-poppins">
       <Sidebar />
-      <div className="flex-[4] bg-bg-1 px-10 py-4">
+      <div className="flex-[4] bg-bg-1 px-6 sm:px-10 pt-4 pb-20 sm:pb-4">
         <Topbar />
         {router}
         </div>

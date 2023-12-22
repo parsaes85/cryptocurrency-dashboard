@@ -77,7 +77,7 @@ export default function Sidebar() {
         </div>
       </div>
       <div className="sm:hidden">
-        <div className="bg-bg-1 z-50 py-2 px-4 fixed bottom-0 left-0 w-full shadow-3xl">
+        <div className="bg-bg-1 z-50 py-2 px-6 fixed bottom-0 left-0 w-full shadow-3xl">
           <ul className="text-gray-100 text-[10px] flex justify-between">
             <li>
               <NavLink to="/" className="flex flex-col items-center">
