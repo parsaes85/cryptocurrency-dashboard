@@ -71,7 +71,7 @@ export default function BitcoinBarChart() {
           </div>
         </div>
         <div className="text-gray-200 text-[10px] sm:text-[13px] font-medium flex gap-2">
-          <span className="active bg-opacity-70 py-1 px-2 sm:px-3 rounded-lg">
+          <span className="text-[#89B9FF] bg-[#082E66] bg-opacity-70 py-1 px-2 sm:px-3 rounded-lg">
             1H
           </span>
           <span className="bg-gray-600 bg-opacity-70 py-1 px-2 sm:px-3 rounded-lg">
