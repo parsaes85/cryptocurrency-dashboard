@@ -14,7 +14,7 @@ function App() {
       <div className="flex-[4] bg-bg-1 px-6 sm:px-10 pt-4 pb-20 sm:pb-4">
         <Topbar />
         {router}
-        </div>
+      </div>
     </div>
   );
 }
