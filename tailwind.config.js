@@ -13,6 +13,9 @@ export default {
       boxShadow: {
         "3xl": "5px 0px 20px rgba(0, 0, 0, 0.8)"
       },
+      screens: {
+        'xs': '434px',
+      },
     },
   },
   plugins: [],
