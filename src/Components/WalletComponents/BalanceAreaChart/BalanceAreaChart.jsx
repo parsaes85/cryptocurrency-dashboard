@@ -57,7 +57,7 @@ const data = [
 
 export default function BalanceAreaChart() {
   return (
-    <div className="bg-black pl-5 pt-6 pb-6 rounded-lg w-[430px] relative">
+    <div className="bg-black pl-5 pt-6 pb-6 rounded-lg relative">
       <h1 className="text-gray-400 font-medium text-xs">Total Balance</h1>
       <span className="absolute text-gray-100 bg-bg-1 px-3 py-2 rounded-full right-4 top-6">
         <NotificationsIcon/>
