@@ -5,6 +5,9 @@ import Markets from "../../Components/WalletComponents/Markets/Markets";
 import CardLists from "../../Components/WalletComponents/CardLists/CardLists";
 import StatisticsNumbers from "../../Components/WalletComponents/StatisticsNumbers/StatisticsNumbers";
 import StatisticsBarChart from "../../Components/WalletComponents/StatisticsBarChart/StatisticsBarChart";
+import Limitation from "../../Components/WalletComponents/Limitation/Limitation";
+import Currency from "../../Components/WalletComponents/Currency/Currency";
+import Due from "../../Components/WalletComponents/Due/Due";
 
 export default function Wallet() {
   return (
@@ -23,6 +26,12 @@ export default function Wallet() {
 
           <StatisticsBarChart />
         </div>
+      </div>
+
+      <div className="grid gap-4 grid-cols-3">
+        <Limitation />
+        <Currency />
+        <Due />
       </div>
     </div>
   );
