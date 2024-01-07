@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Currency() {
   return (
-    <div className="bg-black p-4 rounded-lg">
+    <div className="bg-black p-4 rounded-lg md:col-span-2 lg:col-span-1">
       <h1 className="text-gray-100 font-medium">Currency</h1>
 
       <div className="mt-5 space-y-4">

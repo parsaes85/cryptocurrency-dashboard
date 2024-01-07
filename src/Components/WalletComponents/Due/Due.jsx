@@ -5,7 +5,7 @@ import StoreIcon from '@mui/icons-material/Store';
 
 export default function Due() {
   return (
-    <div className='bg-black rounded-lg p-4'>
+    <div className='bg-black rounded-lg p-4 md:col-span-2 lg:col-span-1'>
         <h1 className='font-medium text-gray-100'>Due</h1>
 
         <div className='mt-4 space-y-4'>
