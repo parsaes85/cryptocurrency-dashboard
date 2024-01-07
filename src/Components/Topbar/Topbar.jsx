@@ -18,7 +18,7 @@ export default function Topbar() {
           <div className="bg-bg-2 rounded-full py-0.5 px-1 flex">
             <SearchIcon />
           </div>
-          <div className="bg-bg-2 rounded-full py-0.5 px-1 flex">
+          <div className="bg-bg-2 rounded-full py-0.5 px-1 flex cursor-pointer relative after:absolute after:top-1 after:right-1 after:w-3 after:h-3 after:rounded-full after:bg-[#FF9B9B] after:border-2 after:border-gray-500">
             <NotificationsNoneIcon />
           </div>
         </div>

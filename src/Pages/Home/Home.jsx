@@ -97,11 +97,12 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-6 space-y-6">
-            <MarketsItem />
-            <MarketsItem />
-            <MarketsItem />
-            <MarketsItem />
-            <MarketsItem />
+            <MarketsItem title="BTCUSDT" subTitle="Bitcoin" price="$23,495" percent="+23.4%"/>
+            <MarketsItem title="AUSUDT" subTitle="Axie Infini" price="$15.95" percent="-8.9%"/>
+            <MarketsItem title="ETHUSDT" subTitle="Ethereum" price="$12.950" percent="+1.5%"/>
+            <MarketsItem title="SOLUSDT" subTitle="Solana" price="$15.95" percent="-4.5%"/>
+            <MarketsItem title="BNBUSD" subTitle="Binance" price="$15.95" percent="+8.9%"/>
+            <MarketsItem title="ADAUSFT" subTitle="Cardano" price="$15.95" percent="-12.2%"/>
           </div>
         </div>
       </div>

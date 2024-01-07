@@ -26,7 +26,7 @@ export default function Sidebar() {
               <li>
                 <NavLink
                   to="/"
-                  className="flex items-center gap-1 p-2 rounded-md"
+                  className="flex items-center gap-2 p-2 rounded-md"
                 >
                   <HomeIcon fontSize="small" />
                   Home
@@ -35,7 +35,7 @@ export default function Sidebar() {
               <li>
                 <NavLink
                   to="/transactions"
-                  className="flex items-center gap-1 p-2 rounded-md"
+                  className="flex items-center gap-2 p-2 rounded-md"
                 >
                   <DonutSmallIcon fontSize="small" />
                   Transactions
@@ -44,7 +44,7 @@ export default function Sidebar() {
               <li>
                 <NavLink
                   to="/portfolio"
-                  className="flex items-center gap-1 p-2 rounded-md"
+                  className="flex items-center gap-2 p-2 rounded-md"
                 >
                   <BadgeIcon fontSize="small" />
                   Portfolio
@@ -53,7 +53,7 @@ export default function Sidebar() {
               <li>
                 <NavLink
                   to="/wallet"
-                  className="flex items-center gap-1 p-2 rounded-md"
+                  className="flex items-center gap-2 p-2 rounded-md"
                 >
                   <AccountBalanceWalletIcon fontSize="small" />
                   Wallet
@@ -64,11 +64,11 @@ export default function Sidebar() {
 
           <div className="absolute w-4/5 bottom-3 border-t border-t-gray-700 pt-1">
             <ul className="text-gray-300 text-xs font-bold mt-auto space-y-1">
-              <li className="flex items-center gap-1 p-2 rounded-md">
+              <li className="flex items-center gap-2 p-2 rounded-md">
                 <HelpOutlineIcon fontSize="small" />
                 Help
               </li>
-              <li className="flex items-center gap-1 p-2 rounded-md">
+              <li className="flex items-center gap-2 p-2 rounded-md">
                 <LogoutIcon fontSize="small" />
                 Log Out
               </li>
